@@ -76,7 +76,7 @@ def update():
         time.sleep(0.5)
         psb("    \033[92m[\033[37m!\033[92m] \033[37mUpdating Tool: ", end="")
         
-        os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Toxic-Noob/ToxicBomber > /dev/null 2>&1")
+        os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Pro-Max-420/sma > /dev/null 2>&1")
         
         print("\033[37mDone")
         psb("\n    \033[92m[\033[37m*\033[92m] \033[37mStarting Tool...")
